@@ -2060,6 +2060,441 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DoMiNi:Adafruit_2765_Mini_2-Axis_Analog_Thumbstick"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RP"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Adafruit_2765"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "DoomWSTK:Adafruit_2765"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Adafruit_2765_Mini_2-Axis_Analog_Thumbstick_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 11.43 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -11.43) (xy -5.08 -7.62) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0.635) (xy -1.905 -0.635) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0 -2.54) (xy 0.635 -1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.635 1.905) (xy 0.635 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.066)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 5.6796)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.763) (xy 0.508 -9.906) (xy -0.508 -9.906) (xy 0 -8.763)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -9.144)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -9.144)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0.635) (xy 1.905 -0.635) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 5.08 -7.62) (xy 5.08 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -8.636)
+					(end -2.54 -6.604)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 5.08) (xy 11.43 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.636 2.54)
+					(end 6.604 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.763 0) (xy 9.906 0.508) (xy 9.906 -0.508) (xy 8.763 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 9.144 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 9.144 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.08) (xy 7.62 -5.08) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Adafruit_2765_Mini_2-Axis_Analog_Thumbstick_1_1"
+				(pin passive line
+					(at -5.08 -13.97 90)
+					(length 2.54)
+					(name "X+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "X+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -13.97 90)
+					(length 2.54)
+					(name "X-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "X-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 5.08 180)
+					(length 2.54)
+					(name "Y+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "Y-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Y-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESP32P4Gap-easyedapro:0603WAF1002T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8155,6 +8590,12 @@
 		(uuid "340bf956-0759-4924-87d8-0f12b829d24d")
 	)
 	(junction
+		(at 162.56 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "358c852e-0187-46ae-b9c9-5113ae5bf015")
+	)
+	(junction
 		(at 323.85 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8423,6 +8864,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac9d14f9-f61f-4308-87ad-f94649525d77")
+	)
+	(junction
+		(at 146.05 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b04c6c29-58d7-4417-b489-ee0444f44dd8")
 	)
 	(junction
 		(at 342.9 146.05)
@@ -8850,6 +9297,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 177.8) (xy 209.55 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038ce21a-5baf-42d1-8b33-cf68fef150b6")
+	)
+	(wire
+		(pts
 			(xy 116.84 66.04) (xy 124.46 66.04)
 		)
 		(stroke
@@ -8857,6 +9314,16 @@
 			(type default)
 		)
 		(uuid "04a36d87-0e6a-491c-8b38-f1a4c8a6af4d")
+	)
+	(wire
+		(pts
+			(xy 223.52 163.83) (xy 228.6 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053d72da-3516-42b7-ac87-3e7e7d59dfcf")
 	)
 	(wire
 		(pts
@@ -9010,6 +9477,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 158.75) (xy 228.6 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0adcaea1-85a9-4166-81a4-485f51a41fbe")
+	)
+	(wire
+		(pts
 			(xy 240.03 270.51) (xy 240.03 271.78)
 		)
 		(stroke
@@ -9107,6 +9584,16 @@
 			(type default)
 		)
 		(uuid "0f3ed92e-3c4d-468a-a473-1a0d38de214a")
+	)
+	(wire
+		(pts
+			(xy 179.07 168.91) (xy 182.88 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f739f24-10a5-4172-9194-02796b3db48e")
 	)
 	(wire
 		(pts
@@ -9450,6 +9937,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 163.83) (xy 193.04 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a6af59-2925-4757-88ca-deeb0d82cb95")
+	)
+	(wire
+		(pts
 			(xy 104.14 266.7) (xy 106.68 266.7)
 		)
 		(stroke
@@ -9467,6 +9964,16 @@
 			(type default)
 		)
 		(uuid "2329b1d0-2064-4672-aee3-d79859e7b0d5")
+	)
+	(wire
+		(pts
+			(xy 214.63 177.8) (xy 214.63 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ea2463-0b3a-4701-9a40-546eee357c61")
 	)
 	(wire
 		(pts
@@ -11000,6 +11507,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 71.12) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7227f9f4-4b1f-4bd3-b415-6b2958c2af0a")
+	)
+	(wire
+		(pts
 			(xy 245.11 31.75) (xy 248.92 31.75)
 		)
 		(stroke
@@ -11150,6 +11667,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 71.12) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b23f020-4af8-4ceb-af10-a7116ddd6473")
+	)
+	(wire
+		(pts
+			(xy 179.07 158.75) (xy 186.69 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4e8a36-0c5b-441a-b095-3dd218750ddc")
+	)
+	(wire
+		(pts
 			(xy 116.84 81.28) (xy 120.65 81.28)
 		)
 		(stroke
@@ -11230,6 +11767,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 153.67) (xy 228.6 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b18eb3-d9e3-4347-9c32-0ed0dafda538")
+	)
+	(wire
+		(pts
 			(xy 121.92 149.86) (xy 123.19 149.86)
 		)
 		(stroke
@@ -11287,6 +11834,16 @@
 			(type default)
 		)
 		(uuid "85c1530a-5b2d-4c5f-8e41-efcfc2b2ad9b")
+	)
+	(wire
+		(pts
+			(xy 182.88 168.91) (xy 182.88 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8869385c-e2be-46af-a217-44989a197725")
 	)
 	(wire
 		(pts
@@ -11520,6 +12077,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 177.8) (xy 204.47 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942c9bb4-1dea-4c45-bb8f-90d75159d6a6")
+	)
+	(wire
+		(pts
 			(xy 342.9 83.82) (xy 350.52 83.82)
 		)
 		(stroke
@@ -11740,7 +12307,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 73.66) (xy 120.65 73.66)
+			(xy 116.84 73.66) (xy 146.05 73.66)
 		)
 		(stroke
 			(width 0)
@@ -11837,6 +12404,16 @@
 			(type default)
 		)
 		(uuid "a32c90a4-4735-4f33-b701-f7da57c5161c")
+	)
+	(wire
+		(pts
+			(xy 160.02 177.8) (xy 160.02 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34166e4-5907-431b-8107-e79bdb7dbeac")
 	)
 	(wire
 		(pts
@@ -12130,6 +12707,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 73.66) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54c0e3e-6e14-4c67-a496-c24c60a2f333")
+	)
+	(wire
+		(pts
 			(xy 163.83 220.98) (xy 152.4 220.98)
 		)
 		(stroke
@@ -12360,6 +12947,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 168.91) (xy 224.79 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25388f8-b9ac-4020-a6ff-88d26e606cb8")
+	)
+	(wire
+		(pts
 			(xy 256.54 226.06) (xy 256.54 229.87)
 		)
 		(stroke
@@ -12427,6 +13024,26 @@
 			(type default)
 		)
 		(uuid "c750e6eb-5789-4021-9d8a-07aedee6d96c")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c787d719-fee5-4c22-94a7-2c8cbdb2e9f6")
+	)
+	(wire
+		(pts
+			(xy 170.18 177.8) (xy 170.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e45b8a-c894-4aa9-a87b-c13c730c6aea")
 	)
 	(wire
 		(pts
@@ -12587,6 +13204,16 @@
 			(type default)
 		)
 		(uuid "d45628ad-e842-4ba6-9814-1f287cb8dc87")
+	)
+	(wire
+		(pts
+			(xy 186.69 154.94) (xy 186.69 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53a9044-5f4d-4c64-bd49-f63c3d9f9bcc")
 	)
 	(wire
 		(pts
@@ -12890,6 +13517,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 173.99) (xy 224.79 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6dbd2fd-9544-4adf-92f0-a1d6fc88ae17")
+	)
+	(wire
+		(pts
 			(xy 367.03 196.85) (xy 374.65 196.85)
 		)
 		(stroke
@@ -13100,7 +13737,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 120.65 71.12)
+			(xy 116.84 71.12) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -13127,6 +13764,16 @@
 			(type default)
 		)
 		(uuid "f54b6ea2-49cd-4ab3-853b-1567ebb0b5ad")
+	)
+	(wire
+		(pts
+			(xy 165.1 177.8) (xy 165.1 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5741082-3c20-4a2c-ab8f-d31d12508736")
 	)
 	(wire
 		(pts
@@ -14913,6 +15560,16 @@
 			"ZKNqcs6TkpJ60+Al7bBGo9FcFiiXCynl/wdRW9vuIFFGnwAAAABJRU5ErkJggg=="
 		)
 	)
+	(label "+3V3"
+		(at 204.47 185.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0347cc68-b3dd-49c1-ae55-fa411d2ecb50")
+	)
 	(label "TFT_SPI_MOSI"
 		(at 104.14 162.56 0)
 		(effects
@@ -15033,6 +15690,16 @@
 		)
 		(uuid "22403f58-0275-4a4e-acee-82b79676bb8a")
 	)
+	(label "RP1_X"
+		(at 146.05 81.28 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "224b9ef7-f326-4841-8d52-cfd5ff3e6784")
+	)
 	(label "VIN"
 		(at 289.56 83.82 0)
 		(effects
@@ -15133,6 +15800,16 @@
 		)
 		(uuid "35816a23-f133-4896-9bcb-8e43a885e1cf")
 	)
+	(label "+3V3"
+		(at 186.69 154.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "365f66a2-6c84-48c2-84f7-b81522781d62")
+	)
 	(label "KEY_START1"
 		(at 99.06 29.21 90)
 		(effects
@@ -15152,6 +15829,16 @@
 			(justify left bottom)
 		)
 		(uuid "37a4a62e-4c5f-4a26-b315-92d116fe759e")
+	)
+	(label "RP2_X"
+		(at 209.55 184.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e906cbb-2814-41e1-9bf2-c59ec6e0fc66")
 	)
 	(label "+3V3"
 		(at 67.31 198.12 0)
@@ -15223,6 +15910,16 @@
 		)
 		(uuid "4ccb8161-b35c-4e29-b553-2244e16e5617")
 	)
+	(label "RP1_Y"
+		(at 162.56 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51a63156-d028-4242-9929-b9297ddbad23")
+	)
 	(label "SD_CD"
 		(at 81.28 274.32 90)
 		(effects
@@ -15262,6 +15959,16 @@
 			(justify left bottom)
 		)
 		(uuid "5e8b0241-3099-47d5-86e2-253ffd989461")
+	)
+	(label "RP2_Y"
+		(at 228.6 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "605a292f-20ec-4b59-9757-7ccba29d96dd")
 	)
 	(label "SD_CD"
 		(at 137.16 60.96 0)
@@ -15322,6 +16029,16 @@
 			(justify left bottom)
 		)
 		(uuid "71e4dc77-2b6d-44e9-8d2e-cbcc1ddac6fc")
+	)
+	(label "+3V3"
+		(at 160.02 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "725d24b9-cd8d-4626-b9a5-f492d021568e")
 	)
 	(label "I2S_BCLK"
 		(at 309.88 212.09 0)
@@ -15452,6 +16169,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d2296f9-e104-452d-a930-821c1f27a621")
+	)
+	(label "RP1_Y"
+		(at 193.04 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "807c3690-1ddc-43cf-9150-6a4e89b8986c")
 	)
 	(label "USB_D-"
 		(at 96.52 115.57 270)
@@ -15792,6 +16519,26 @@
 			(justify left bottom)
 		)
 		(uuid "cf66c2d0-dcf1-4541-888a-37ca09accf68")
+	)
+	(label "+3V3"
+		(at 228.6 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d08c27af-37fb-497c-9119-f6e9f49b4f94")
+	)
+	(label "RP1_X"
+		(at 165.1 187.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d13fc3ef-f8a6-4275-9519-dffa18e18d34")
 	)
 	(label "TFT_SPI_MOSI"
 		(at 26.67 81.28 0)
@@ -20307,7 +21054,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 120.65 73.66 270)
+		(at 149.86 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20315,7 +21062,7 @@
 		(dnp no)
 		(uuid "554494b3-4777-425b-986f-8004a0bc4408")
 		(property "Reference" "TP18"
-			(at 125.73 72.898 90)
+			(at 154.94 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20324,7 +21071,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 122.6821 76.2 0)
+			(at 151.8921 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20334,7 +21081,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 120.65 78.74 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20343,7 +21090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 78.74 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20352,7 +21099,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 120.65 73.66 0)
+			(at 149.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22422,6 +23169,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
+		(at 182.88 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a93972b-e274-48cf-8997-f832b39090ab")
+		(property "Reference" "#PWR010"
+			(at 182.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 171.45 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ESP32P4Gap-easyedapro:"
+			(at 182.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f7913af-7ba1-493b-a5f2-05e173005351")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:WT0132P4-A1")
 		(at 78.74 73.66 0)
 		(unit 1)
@@ -24010,6 +24823,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
+		(at 170.18 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0898d17-8d08-434f-92a5-1e73a51f7ab5")
+		(property "Reference" "#PWR09"
+			(at 170.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 182.88 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ESP32P4Gap-easyedapro:"
+			(at 170.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50d6ffa1-0be4-4e28-9fe3-3df4efef87df")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Capacitance")
 		(at 342.9 100.33 270)
 		(unit 1)
@@ -25013,6 +25892,104 @@
 		)
 	)
 	(symbol
+		(lib_id "DoMiNi:Adafruit_2765_Mini_2-Axis_Analog_Thumbstick")
+		(at 209.55 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba1ab240-1253-44f3-aeaa-28020e9ac85f")
+		(property "Reference" "RP2"
+			(at 211.455 152.1925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Adafruit_2765"
+			(at 211.455 154.6168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Martendo32Library:Adafruit_2765"
+			(at 209.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 209.55 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "2765"
+			(at 209.55 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "Y+"
+			(uuid "3cf1af48-881a-4613-bed3-f1a4350ed785")
+		)
+		(pin "Y"
+			(uuid "a163eba8-c52c-41b2-a0b2-b3aa647ea419")
+		)
+		(pin "X"
+			(uuid "021b4a20-657f-4969-a6eb-c25e06c917e4")
+		)
+		(pin "X+"
+			(uuid "3cbc9c07-312f-4f9a-8508-87da69d86577")
+		)
+		(pin "X-"
+			(uuid "6ab066ce-2767-4735-a1f8-01b30b8d9cfa")
+		)
+		(pin "Y-"
+			(uuid "b7c037c1-5a0e-4827-afc0-d113124c0ef7")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "RP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
 		(at 153.67 274.32 0)
 		(unit 1)
@@ -25209,6 +26186,72 @@
 			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
 				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
 					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
+		(at 224.79 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf09782b-37b7-4370-97ff-7830bcc8282f")
+		(property "Reference" "#PWR012"
+			(at 224.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 173.99 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ESP32P4Gap-easyedapro:"
+			(at 224.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76d090be-25d1-4c0d-8bbd-d4aec65cac84")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -26240,6 +27283,104 @@
 		)
 	)
 	(symbol
+		(lib_id "DoMiNi:Adafruit_2765_Mini_2-Axis_Analog_Thumbstick")
+		(at 165.1 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce259f42-ed3c-4f70-976f-5dcb15fcc11a")
+		(property "Reference" "RP1"
+			(at 167.005 152.1925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Adafruit_2765"
+			(at 167.005 154.6168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Martendo32Library:Adafruit_2765"
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 165.1 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "2765"
+			(at 165.1 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "Y+"
+			(uuid "c5bb88bb-3cc8-46dd-ba53-9ea53951571b")
+		)
+		(pin "Y"
+			(uuid "ddf16bd1-2a5b-469e-8871-65919e9aa91d")
+		)
+		(pin "X"
+			(uuid "b8d706b0-1cb7-4027-a2e7-63bb17d10ab7")
+		)
+		(pin "X+"
+			(uuid "3142cdc6-a159-432d-ba26-3c36d4150462")
+		)
+		(pin "X-"
+			(uuid "e2572ffd-52a9-459a-af46-6f947455cdb1")
+		)
+		(pin "Y-"
+			(uuid "b8099a68-d6e9-44c3-93b7-6c491a1cd9ce")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "RP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
 		(at 106.68 270.51 0)
 		(unit 1)
@@ -26814,7 +27955,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 120.65 71.12 270)
+		(at 165.1 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26822,7 +27963,7 @@
 		(dnp no)
 		(uuid "e19a4a68-2536-45dd-8b8c-53a96d0bc674")
 		(property "Reference" "TP21"
-			(at 125.73 70.358 90)
+			(at 170.18 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26831,7 +27972,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 122.6821 73.66 0)
+			(at 167.1321 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26841,7 +27982,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 120.65 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26850,7 +27991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26859,7 +28000,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 120.65 71.12 0)
+			(at 165.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27599,6 +28740,72 @@
 			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
 				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
+		(at 214.63 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f07afbec-d411-42c5-8126-e5b0e56844af")
+		(property "Reference" "#PWR011"
+			(at 214.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 180.34 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ESP32P4Gap-easyedapro:"
+			(at 214.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db04f362-01e5-4cbb-a6ce-d132f9ab092e")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
