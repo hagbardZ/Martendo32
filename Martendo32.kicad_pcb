@@ -2012,9 +2012,10 @@
 		(uuid "1cd627fa-15ed-4a1a-9566-6eeab127d6a4")
 		(at 62.99 133.978 180)
 		(property "Reference" "RP1"
-			(at 6.428 5.882 0)
+			(at -0.126 5.882 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bda7247c-9185-40da-9a90-9a13b029d035")
 			(effects
 				(font
@@ -2092,125 +2093,6 @@
 		(sheetname "/")
 		(sheetfile "Martendo32.kicad_sch")
 		(attr smd dnp)
-		(fp_line
-			(start 9 6)
-			(end 6 9)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a746119e-77f3-4b83-9e18-8afdeb677314")
-		)
-		(fp_line
-			(start 9 -6)
-			(end 9 6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "77ff35a8-f325-485d-b8d4-8148387300be")
-		)
-		(fp_line
-			(start 6 9)
-			(end -6 9)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d08288d5-745c-4d69-b04d-3d6d4136c070")
-		)
-		(fp_line
-			(start 6 -9)
-			(end 9 -6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e698fa39-13c1-4552-82d4-218d2aa6c1d9")
-		)
-		(fp_line
-			(start -6 9)
-			(end -9 6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e5feb53a-f2f6-4222-ac57-d45d50c099c0")
-		)
-		(fp_line
-			(start -6 -9)
-			(end 6 -9)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "07383adf-9f34-47f8-8cd2-859f2cd6bf41")
-		)
-		(fp_line
-			(start -9 6)
-			(end -9 -6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c1816cba-96cd-4a7c-9799-bb81e4d7df1d")
-		)
-		(fp_line
-			(start -9 -6)
-			(end -6 -9)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "03efd089-05e4-4dee-b1ef-698abe7c6c02")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0 7)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "d5ec4f79-2ff4-4e98-9469-987629d0885e")
-		)
-		(fp_poly
-			(pts
-				(xy 5.64421 0.467692) (xy 5.58631 0.932191) (xy 5.490251 1.390321) (xy 5.356688 1.838953) (xy 5.186532 2.275024)
-				(xy 4.980947 2.695554) (xy 4.741338 3.097671) (xy 4.46934 3.478627) (xy 4.166812 3.835821) (xy 3.835821 4.166812)
-				(xy 3.478627 4.46934) (xy 3.097671 4.741338) (xy 2.695554 4.980947) (xy 2.275024 5.186532) (xy 1.838953 5.356688)
-				(xy 1.390321 5.490251) (xy 0.930903 5.586581) (xy 0.001315 5.663609) (xy -0.467692 5.64421) (xy -0.932191 5.58631)
-				(xy -1.390321 5.490251) (xy -1.838953 5.356688) (xy -2.275024 5.186532) (xy -2.695554 4.980947)
-				(xy -3.097671 4.741338) (xy -3.478627 4.46934) (xy -3.835821 4.166812) (xy -4.166812 3.835821) (xy -4.46934 3.478627)
-				(xy -4.741338 3.097671) (xy -4.980947 2.695554) (xy -5.186532 2.275024) (xy -5.356688 1.838953)
-				(xy -5.490251 1.390321) (xy -5.58631 0.932191) (xy -5.64421 0.467692) (xy -5.663554 0) (xy -5.64421 -0.467692)
-				(xy -5.58631 -0.932191) (xy -5.490251 -1.390321) (xy -5.356688 -1.838953) (xy -5.186532 -2.275024)
-				(xy -4.980947 -2.695554) (xy -4.741338 -3.097671) (xy -4.46934 -3.478627) (xy -4.166812 -3.835821)
-				(xy -3.835821 -4.166812) (xy -3.478627 -4.46934) (xy -3.097671 -4.741338) (xy -2.695554 -4.980947)
-				(xy -2.275024 -5.186532) (xy -1.838953 -5.356688) (xy -1.390321 -5.490251) (xy -0.932191 -5.58631)
-				(xy -0.467692 -5.64421) (xy 0 -5.663554) (xy 0.467692 -5.64421) (xy 0.932191 -5.58631) (xy 1.390321 -5.490251)
-				(xy 1.838953 -5.356688) (xy 2.275024 -5.186532) (xy 2.695554 -4.980947) (xy 3.097671 -4.741338)
-				(xy 3.478627 -4.46934) (xy 3.835821 -4.166812) (xy 4.166812 -3.835821) (xy 4.46934 -3.478627) (xy 4.741338 -3.097671)
-				(xy 4.980947 -2.695554) (xy 5.186532 -2.275024) (xy 5.356688 -1.838953) (xy 5.490251 -1.390321)
-				(xy 5.58631 -0.932191) (xy 5.64421 -0.467692) (xy 5.663554 0)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "774c0e75-3299-4d47-bebf-a05f689e843e")
-		)
 		(pad "" np_thru_hole circle
 			(at -6 6 90)
 			(size 1.6 1.6)
@@ -5582,11 +5464,11 @@
 		(uuid "3b7ac956-4501-4584-8af3-369aab97abd7")
 		(at 105.09 133.978 90)
 		(property "Reference" "RP2"
-			(at 6.428 5.882 270)
+			(at 5.562 2.222 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7cad4e5d-ede0-4299-987e-c9fde2328e02")
+			(uuid "8fc22397-01fd-425a-a1fa-66b253fbf123")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5599,7 +5481,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d3debd72-8359-4c25-af30-c0610673a02c")
+			(uuid "3aeca92c-885c-41b3-b258-a1bdc832c856")
 			(effects
 				(font
 					(size 1 1)
@@ -5612,7 +5494,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb726135-57b0-4416-9ebb-5aaefcdc522c")
+			(uuid "4370dad6-a1bc-4217-969e-2325060c0f67")
 			(effects
 				(font
 					(size 1 1)
@@ -5625,7 +5507,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bc0fd81-5713-4656-a3c3-3156f8ea0b1a")
+			(uuid "6d70383d-6be6-4c67-a33e-0500a7917d50")
 			(effects
 				(font
 					(size 1 1)
@@ -5663,125 +5545,6 @@
 		(sheetname "/")
 		(sheetfile "Martendo32.kicad_sch")
 		(attr smd dnp)
-		(fp_line
-			(start 6 -9)
-			(end 9 -6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96d5537a-1f38-4150-a084-1fb2166e9f17")
-		)
-		(fp_line
-			(start -6 -9)
-			(end 6 -9)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9a777a8-c248-48de-93e2-8bc47fdff979")
-		)
-		(fp_line
-			(start 9 -6)
-			(end 9 6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1b1d5e48-3604-4a49-8071-f5373775bf18")
-		)
-		(fp_line
-			(start -9 -6)
-			(end -6 -9)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "57703657-5e72-4e70-be74-045f279caedd")
-		)
-		(fp_line
-			(start 9 6)
-			(end 6 9)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0b6bf9eb-18aa-4960-8962-0df1cfdcdba4")
-		)
-		(fp_line
-			(start -9 6)
-			(end -9 -6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0e7e908c-31fc-428a-b30b-40f1f27306ed")
-		)
-		(fp_line
-			(start 6 9)
-			(end -6 9)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b603f265-f480-45d1-b454-03384ecf6d22")
-		)
-		(fp_line
-			(start -6 9)
-			(end -9 6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "244ac3f9-a5ee-476d-8209-cf0662ed9015")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0 7)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "bd51a849-0975-4f3e-afef-2a634fe1be58")
-		)
-		(fp_poly
-			(pts
-				(xy 5.64421 0.467692) (xy 5.58631 0.932191) (xy 5.490251 1.390321) (xy 5.356688 1.838953) (xy 5.186532 2.275024)
-				(xy 4.980947 2.695554) (xy 4.741338 3.097671) (xy 4.46934 3.478627) (xy 4.166812 3.835821) (xy 3.835821 4.166812)
-				(xy 3.478627 4.46934) (xy 3.097671 4.741338) (xy 2.695554 4.980947) (xy 2.275024 5.186532) (xy 1.838953 5.356688)
-				(xy 1.390321 5.490251) (xy 0.930903 5.586581) (xy 0.001315 5.663609) (xy -0.467692 5.64421) (xy -0.932191 5.58631)
-				(xy -1.390321 5.490251) (xy -1.838953 5.356688) (xy -2.275024 5.186532) (xy -2.695554 4.980947)
-				(xy -3.097671 4.741338) (xy -3.478627 4.46934) (xy -3.835821 4.166812) (xy -4.166812 3.835821) (xy -4.46934 3.478627)
-				(xy -4.741338 3.097671) (xy -4.980947 2.695554) (xy -5.186532 2.275024) (xy -5.356688 1.838953)
-				(xy -5.490251 1.390321) (xy -5.58631 0.932191) (xy -5.64421 0.467692) (xy -5.663554 0) (xy -5.64421 -0.467692)
-				(xy -5.58631 -0.932191) (xy -5.490251 -1.390321) (xy -5.356688 -1.838953) (xy -5.186532 -2.275024)
-				(xy -4.980947 -2.695554) (xy -4.741338 -3.097671) (xy -4.46934 -3.478627) (xy -4.166812 -3.835821)
-				(xy -3.835821 -4.166812) (xy -3.478627 -4.46934) (xy -3.097671 -4.741338) (xy -2.695554 -4.980947)
-				(xy -2.275024 -5.186532) (xy -1.838953 -5.356688) (xy -1.390321 -5.490251) (xy -0.932191 -5.58631)
-				(xy -0.467692 -5.64421) (xy 0 -5.663554) (xy 0.467692 -5.64421) (xy 0.932191 -5.58631) (xy 1.390321 -5.490251)
-				(xy 1.838953 -5.356688) (xy 2.275024 -5.186532) (xy 2.695554 -4.980947) (xy 3.097671 -4.741338)
-				(xy 3.478627 -4.46934) (xy 3.835821 -4.166812) (xy 4.166812 -3.835821) (xy 4.46934 -3.478627) (xy 4.741338 -3.097671)
-				(xy 4.980947 -2.695554) (xy 5.186532 -2.275024) (xy 5.356688 -1.838953) (xy 5.490251 -1.390321)
-				(xy 5.58631 -0.932191) (xy 5.64421 -0.467692) (xy 5.663554 0)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "b2ac717b-c602-4423-81f7-57cb98c15b87")
-		)
 		(pad "" np_thru_hole circle
 			(at -6 6)
 			(size 1.6 1.6)
