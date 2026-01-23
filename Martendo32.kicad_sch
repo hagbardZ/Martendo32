@@ -8447,6 +8447,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R26 is placed, if RP2 is used\notherwise place only R14\n"
+		(exclude_from_sim no)
+		(at 45.72 207.772 0)
+		(effects
+			(font
+				(size 2.1844 2.1844)
+			)
+			(justify left bottom)
+		)
+		(uuid "80c30d9b-10c7-4bc8-80ae-56d21cea692d")
+	)
+	(text "Analog Joysticks (optional)\n"
+		(exclude_from_sim no)
+		(at 167.386 158.242 0)
+		(effects
+			(font
+				(size 2.1844 2.1844)
+			)
+			(justify left bottom)
+		)
+		(uuid "8211c6e6-bd96-44ba-b220-abd7270a10b5")
+	)
 	(text "µSD\n"
 		(exclude_from_sim no)
 		(at 48.514 243.332 0)
@@ -8590,12 +8612,6 @@
 		(uuid "340bf956-0759-4924-87d8-0f12b829d24d")
 	)
 	(junction
-		(at 162.56 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "358c852e-0187-46ae-b9c9-5113ae5bf015")
-	)
-	(junction
 		(at 323.85 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8666,6 +8682,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ad92969-c484-4a96-a7bf-9c6af0ef2d40")
+	)
+	(junction
+		(at 90.17 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b64a315-0725-4bc0-9c1c-7788368ceabe")
 	)
 	(junction
 		(at 175.26 57.15)
@@ -8866,12 +8888,6 @@
 		(uuid "ac9d14f9-f61f-4308-87ad-f94649525d77")
 	)
 	(junction
-		(at 146.05 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b04c6c29-58d7-4417-b489-ee0444f44dd8")
-	)
-	(junction
 		(at 342.9 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8900,12 +8916,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba3862b0-4bba-46f9-a232-a88c9886c73b")
-	)
-	(junction
-		(at 63.5 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baa40a45-411b-40c4-85b4-3ebb3c0e337d")
 	)
 	(junction
 		(at 334.01 146.05)
@@ -9046,12 +9056,6 @@
 		(uuid "ebbde042-c088-4eb2-a2e7-3017ece3d110")
 	)
 	(junction
-		(at 60.96 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed057ba6-da72-45cd-ab46-f0094dbcb39a")
-	)
-	(junction
 		(at 256.54 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9080,6 +9084,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5881190-f0d8-4038-856a-af41bb471d4d")
+	)
+	(junction
+		(at 119.38 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa867da0-9cf4-4011-ba94-aa90c8236ce8")
 	)
 	(junction
 		(at 264.16 104.14)
@@ -9239,6 +9249,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 33.02) (xy 60.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015c79c1-b016-4436-b4dd-a49da302cdbe")
+	)
+	(wire
+		(pts
 			(xy 88.9 29.21) (xy 88.9 38.1)
 		)
 		(stroke
@@ -9309,16 +9329,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 177.8) (xy 209.55 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "038ce21a-5baf-42d1-8b33-cf68fef150b6")
-	)
-	(wire
-		(pts
 			(xy 116.84 66.04) (xy 124.46 66.04)
 		)
 		(stroke
@@ -9326,16 +9336,6 @@
 			(type default)
 		)
 		(uuid "04a36d87-0e6a-491c-8b38-f1a4c8a6af4d")
-	)
-	(wire
-		(pts
-			(xy 223.52 163.83) (xy 228.6 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "053d72da-3516-42b7-ac87-3e7e7d59dfcf")
 	)
 	(wire
 		(pts
@@ -9356,6 +9356,16 @@
 			(type default)
 		)
 		(uuid "057f69da-fdd7-4429-b596-6ecfbd0b4a68")
+	)
+	(wire
+		(pts
+			(xy 63.5 33.02) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05adc4c3-d77e-45ff-9c3c-a570d050f8c4")
 	)
 	(wire
 		(pts
@@ -9429,16 +9439,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 19.05) (xy 63.5 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "078444b5-1eb5-45c5-9bad-05632790ab21")
-	)
-	(wire
-		(pts
 			(xy 332.74 240.03) (xy 346.71 240.03)
 		)
 		(stroke
@@ -9489,7 +9489,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 158.75) (xy 228.6 158.75)
+			(xy 227.33 167.64) (xy 231.14 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9599,7 +9599,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 168.91) (xy 182.88 168.91)
+			(xy 189.23 177.8) (xy 193.04 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9639,23 +9639,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 93.98) (xy 120.65 93.98)
+			(xy 116.84 93.98) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "10545c68-97fe-4904-b072-ee478842b220")
-	)
-	(wire
-		(pts
-			(xy 63.5 20.32) (xy 64.77 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "110fea33-f69c-4cf3-ae15-31c34a9d2307")
 	)
 	(wire
 		(pts
@@ -9769,6 +9759,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 71.12) (xy 120.65 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150e92fa-c37c-4248-8803-408b35ef1a83")
+	)
+	(wire
+		(pts
+			(xy 88.9 180.34) (xy 90.17 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15dd3b4d-c03d-4cc5-857f-6f6104fd1ce7")
+	)
+	(wire
+		(pts
 			(xy 355.6 212.09) (xy 367.03 212.09)
 		)
 		(stroke
@@ -9816,6 +9826,16 @@
 			(type default)
 		)
 		(uuid "18a60614-908c-4585-969f-0c5c0b4461ff")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1990c071-fa78-49d9-a05b-771e306fba64")
 	)
 	(wire
 		(pts
@@ -9959,13 +9979,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 163.83) (xy 193.04 163.83)
+			(xy 116.84 73.66) (xy 120.65 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22a6af59-2925-4757-88ca-deeb0d82cb95")
+		(uuid "228d6e1f-569b-4829-9897-cb334294a36e")
 	)
 	(wire
 		(pts
@@ -9989,7 +10009,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 177.8) (xy 214.63 180.34)
+			(xy 218.44 186.69) (xy 218.44 189.23)
 		)
 		(stroke
 			(width 0)
@@ -10109,16 +10129,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 27.94) (xy 81.28 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "299df9b0-e74d-4102-9e52-e1abf090e634")
-	)
-	(wire
-		(pts
 			(xy 259.08 31.75) (xy 276.86 31.75)
 		)
 		(stroke
@@ -10226,16 +10236,6 @@
 			(type default)
 		)
 		(uuid "2e20650e-89bf-433f-8972-48f9e2042864")
-	)
-	(wire
-		(pts
-			(xy 76.2 27.94) (xy 76.2 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e7c5e6d-8c12-4bc6-a25f-3355d66d66b1")
 	)
 	(wire
 		(pts
@@ -10436,16 +10436,6 @@
 			(type default)
 		)
 		(uuid "3b78abe2-fea7-459c-9d79-a5d8f6d70e91")
-	)
-	(wire
-		(pts
-			(xy 60.96 22.86) (xy 60.96 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b831a12-c795-4281-baf2-2b2b243f6995")
 	)
 	(wire
 		(pts
@@ -10886,16 +10876,6 @@
 			(type default)
 		)
 		(uuid "4f6f1638-e728-4315-9b43-ad0444f6b23b")
-	)
-	(wire
-		(pts
-			(xy 64.77 16.51) (xy 68.58 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fccad79-367d-44d8-9091-633fff27f278")
 	)
 	(wire
 		(pts
@@ -11509,6 +11489,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 172.72) (xy 232.41 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e99f28a-494a-41e6-903a-73ce554e3094")
+	)
+	(wire
+		(pts
 			(xy 165.1 231.14) (xy 165.1 232.41)
 		)
 		(stroke
@@ -11546,16 +11536,6 @@
 			(type default)
 		)
 		(uuid "71fd195c-4e88-41a9-8323-e4eefc0434c8")
-	)
-	(wire
-		(pts
-			(xy 162.56 71.12) (xy 162.56 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7227f9f4-4b1f-4bd3-b415-6b2958c2af0a")
 	)
 	(wire
 		(pts
@@ -11659,16 +11639,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 19.05) (xy 60.96 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78498672-2c13-4751-abf4-d96b5a75a9d9")
-	)
-	(wire
-		(pts
 			(xy 153.67 245.11) (xy 149.86 245.11)
 		)
 		(stroke
@@ -11709,17 +11679,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 71.12) (xy 165.1 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b23f020-4af8-4ceb-af10-a7116ddd6473")
-	)
-	(wire
-		(pts
-			(xy 179.07 158.75) (xy 186.69 158.75)
+			(xy 189.23 167.64) (xy 191.77 167.64)
 		)
 		(stroke
 			(width 0)
@@ -11746,16 +11706,6 @@
 			(type default)
 		)
 		(uuid "7cb25170-c90a-49c3-a767-5489d8f459a4")
-	)
-	(wire
-		(pts
-			(xy 63.5 20.32) (xy 63.5 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d4e4c26-d521-41e5-8f0c-fb6311055fc8")
 	)
 	(wire
 		(pts
@@ -11819,7 +11769,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 153.67) (xy 228.6 158.75)
+			(xy 231.14 163.83) (xy 231.14 167.64)
 		)
 		(stroke
 			(width 0)
@@ -11889,7 +11839,37 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 168.91) (xy 182.88 171.45)
+			(xy 208.28 186.69) (xy 208.28 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864047c7-e40b-4519-a5e4-5108159c40a6")
+	)
+	(wire
+		(pts
+			(xy 189.23 172.72) (xy 194.31 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d8f280-6183-4497-84b5-8912a4aa82a1")
+	)
+	(wire
+		(pts
+			(xy 67.31 180.34) (xy 78.74 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883d72fc-fd78-4ec8-8af7-97b98da68b7c")
+	)
+	(wire
+		(pts
+			(xy 193.04 177.8) (xy 193.04 180.34)
 		)
 		(stroke
 			(width 0)
@@ -11936,6 +11916,16 @@
 			(type default)
 		)
 		(uuid "8a98fa78-aac4-4ec2-9aba-15c44a0d1d10")
+	)
+	(wire
+		(pts
+			(xy 76.2 27.94) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b56ab80-6e5d-4a5f-800f-58e4399dd3cc")
 	)
 	(wire
 		(pts
@@ -12129,16 +12119,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 177.8) (xy 204.47 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "942c9bb4-1dea-4c45-bb8f-90d75159d6a6")
-	)
-	(wire
-		(pts
 			(xy 342.9 83.82) (xy 350.52 83.82)
 		)
 		(stroke
@@ -12299,6 +12279,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 186.69) (xy 213.36 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd77b1c-a47e-4ddb-b011-47cb8bdcb7fb")
+	)
+	(wire
+		(pts
 			(xy 58.42 33.02) (xy 58.42 38.1)
 		)
 		(stroke
@@ -12316,6 +12306,16 @@
 			(type default)
 		)
 		(uuid "9f2f02a9-9e8d-43f5-bca8-0de729a616f5")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f32c5d8-9656-4665-a1f1-0468691e0479")
 	)
 	(wire
 		(pts
@@ -12356,16 +12356,6 @@
 			(type default)
 		)
 		(uuid "9fe45449-44bc-4406-a2e8-6e33d0e607a4")
-	)
-	(wire
-		(pts
-			(xy 116.84 73.66) (xy 146.05 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff47b24-4e3b-47c6-a379-8e7c14973da6")
 	)
 	(wire
 		(pts
@@ -12459,7 +12449,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 177.8) (xy 160.02 181.61)
+			(xy 170.18 186.69) (xy 170.18 190.5)
 		)
 		(stroke
 			(width 0)
@@ -12659,6 +12649,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 29.21) (xy 83.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfb630f-d560-4a74-9a45-54ec31a1eb65")
+	)
+	(wire
+		(pts
 			(xy 153.67 252.73) (xy 153.67 254)
 		)
 		(stroke
@@ -12719,16 +12719,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 22.86) (xy 60.96 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afddfb06-f7cf-4d2b-94ca-c678a226947e")
-	)
-	(wire
-		(pts
 			(xy 236.22 74.93) (xy 237.49 74.93)
 		)
 		(stroke
@@ -12739,13 +12729,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 20.32) (xy 64.77 16.51)
+			(xy 119.38 93.98) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b15c3285-cbae-4fdf-9480-8bc3e093cfbe")
+		(uuid "b173e50e-16f5-47fa-a35d-54fac645d1b1")
 	)
 	(wire
 		(pts
@@ -12776,16 +12766,6 @@
 			(type default)
 		)
 		(uuid "b5088746-6c5b-46dd-bf47-c5bb968ca154")
-	)
-	(wire
-		(pts
-			(xy 146.05 73.66) (xy 149.86 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b54c0e3e-6e14-4c67-a496-c24c60a2f333")
 	)
 	(wire
 		(pts
@@ -12866,6 +12846,16 @@
 			(type default)
 		)
 		(uuid "ba5da572-5bbe-42fd-9649-8eeab547d141")
+	)
+	(wire
+		(pts
+			(xy 81.28 29.21) (xy 81.28 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bace3dd7-b9fa-4a99-95c4-a611ab28ca49")
 	)
 	(wire
 		(pts
@@ -12959,6 +12949,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 187.96) (xy 90.17 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1c3253-3b0a-49f7-b332-df44da271f6f")
+	)
+	(wire
+		(pts
 			(xy 300.99 83.82) (xy 300.99 97.79)
 		)
 		(stroke
@@ -13019,7 +13019,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 168.91) (xy 224.79 168.91)
+			(xy 227.33 177.8) (xy 228.6 177.8)
 		)
 		(stroke
 			(width 0)
@@ -13099,17 +13099,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 73.66) (xy 146.05 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c787d719-fee5-4c22-94a7-2c8cbdb2e9f6")
-	)
-	(wire
-		(pts
-			(xy 170.18 177.8) (xy 170.18 182.88)
+			(xy 180.34 186.69) (xy 180.34 189.23)
 		)
 		(stroke
 			(width 0)
@@ -13279,7 +13269,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 154.94) (xy 186.69 158.75)
+			(xy 191.77 165.1) (xy 191.77 167.64)
 		)
 		(stroke
 			(width 0)
@@ -13589,7 +13579,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 173.99) (xy 224.79 168.91)
+			(xy 228.6 182.88) (xy 228.6 177.8)
 		)
 		(stroke
 			(width 0)
@@ -13709,6 +13699,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 186.69) (xy 175.26 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0b8b4b-59ea-4abb-b7e6-1d7de6e3256a")
+	)
+	(wire
+		(pts
 			(xy 355.6 207.01) (xy 355.6 212.09)
 		)
 		(stroke
@@ -13756,6 +13756,16 @@
 			(type default)
 		)
 		(uuid "ed7cf70a-6000-4a24-bca3-31ea9d3bd93f")
+	)
+	(wire
+		(pts
+			(xy 88.9 106.68) (xy 88.9 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef69734c-b773-45e3-8e5e-bce4633ee768")
 	)
 	(wire
 		(pts
@@ -13809,16 +13819,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 162.56 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3b196a6-5c54-485f-b5a6-d31a68fcbd95")
-	)
-	(wire
-		(pts
 			(xy 226.06 60.96) (xy 226.06 57.15)
 		)
 		(stroke
@@ -13836,16 +13836,6 @@
 			(type default)
 		)
 		(uuid "f54b6ea2-49cd-4ab3-853b-1567ebb0b5ad")
-	)
-	(wire
-		(pts
-			(xy 165.1 177.8) (xy 165.1 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5741082-3c20-4a2c-ab8f-d31d12508736")
 	)
 	(wire
 		(pts
@@ -14036,16 +14026,6 @@
 			(type default)
 		)
 		(uuid "fe5b5d7a-ac3b-4484-98b8-c1ad9ecb7be9")
-	)
-	(wire
-		(pts
-			(xy 83.82 27.94) (xy 83.82 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe9567f4-5f25-48c6-a2c2-76ae1e649318")
 	)
 	(wire
 		(pts
@@ -15633,7 +15613,7 @@
 		)
 	)
 	(label "+3V3"
-		(at 204.47 185.42 270)
+		(at 208.28 190.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15762,25 +15742,15 @@
 		)
 		(uuid "22403f58-0275-4a4e-acee-82b79676bb8a")
 	)
-	(label "RP1_X"
-		(at 146.05 81.28 270)
+	(label "LCD_BACK_ALT"
+		(at 119.38 101.6 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "224b9ef7-f326-4841-8d52-cfd5ff3e6784")
-	)
-	(label "RP2_Y"
-		(at 68.58 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "241f71de-5362-47c2-92b1-636780b744b2")
+		(uuid "24043760-6bac-4223-8155-fe123b555d34")
 	)
 	(label "VIN"
 		(at 289.56 83.82 0)
@@ -15791,6 +15761,16 @@
 			(justify left bottom)
 		)
 		(uuid "25707cdb-8de2-40af-9c83-b4df787a2ab3")
+	)
+	(label "RP1_Y"
+		(at 81.28 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26780e9c-4c4f-4502-9072-05a915e7686f")
 	)
 	(label "UART0_RXD"
 		(at 124.46 66.04 0)
@@ -15821,6 +15801,16 @@
 			(justify left bottom)
 		)
 		(uuid "28d37799-812b-49f7-97b2-5deb7491cbfe")
+	)
+	(label "RP1_X"
+		(at 175.26 190.5 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b244221-c056-4680-90cf-194060a6a833")
 	)
 	(label "USB_D-"
 		(at 318.77 34.29 0)
@@ -15883,7 +15873,7 @@
 		(uuid "35816a23-f133-4896-9bcb-8e43a885e1cf")
 	)
 	(label "+3V3"
-		(at 186.69 154.94 90)
+		(at 191.77 165.1 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15912,16 +15902,6 @@
 		)
 		(uuid "37a4a62e-4c5f-4a26-b315-92d116fe759e")
 	)
-	(label "RP2_X"
-		(at 209.55 184.15 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e906cbb-2814-41e1-9bf2-c59ec6e0fc66")
-	)
 	(label "+3V3"
 		(at 67.31 198.12 0)
 		(effects
@@ -15941,26 +15921,6 @@
 			(justify right bottom)
 		)
 		(uuid "44a96bdb-ff74-4ffd-97d8-ab2de3dce5d8")
-	)
-	(label "KEY_FN1"
-		(at 83.82 27.94 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "45350a8e-a277-40f3-881f-2cbd7b352c56")
-	)
-	(label "KEY_L"
-		(at 81.28 27.94 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "474781da-37a3-4014-bef2-9919ad58275d")
 	)
 	(label "TFT_SPI_CLK"
 		(at 104.14 154.94 0)
@@ -15991,16 +15951,6 @@
 			(justify left bottom)
 		)
 		(uuid "4ccb8161-b35c-4e29-b553-2244e16e5617")
-	)
-	(label "RP1_Y"
-		(at 162.56 80.01 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "51a63156-d028-4242-9929-b9297ddbad23")
 	)
 	(label "SD_CD"
 		(at 81.28 274.32 90)
@@ -16041,16 +15991,6 @@
 			(justify left bottom)
 		)
 		(uuid "5e8b0241-3099-47d5-86e2-253ffd989461")
-	)
-	(label "RP2_Y"
-		(at 228.6 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "605a292f-20ec-4b59-9757-7ccba29d96dd")
 	)
 	(label "SD_CD"
 		(at 137.16 60.96 0)
@@ -16113,7 +16053,7 @@
 		(uuid "71e4dc77-2b6d-44e9-8d2e-cbcc1ddac6fc")
 	)
 	(label "+3V3"
-		(at 160.02 181.61 270)
+		(at 170.18 190.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16192,6 +16132,16 @@
 		)
 		(uuid "770d7293-8e0d-4c30-8ad0-2926f567ba81")
 	)
+	(label "LCD_BACK"
+		(at 232.41 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78ae21c4-df49-4505-8d0c-3fb82af842a1")
+	)
 	(label "SPK+"
 		(at 345.44 175.26 0)
 		(effects
@@ -16252,16 +16202,6 @@
 		)
 		(uuid "7d2296f9-e104-452d-a930-821c1f27a621")
 	)
-	(label "RP1_Y"
-		(at 193.04 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "807c3690-1ddc-43cf-9150-6a4e89b8986c")
-	)
 	(label "USB_D-"
 		(at 96.52 115.57 270)
 		(effects
@@ -16281,6 +16221,16 @@
 			(justify left bottom)
 		)
 		(uuid "84aa6780-5fa9-4136-8a0d-5d17253caece")
+	)
+	(label "RP2_X"
+		(at 213.36 193.04 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84bd8ccb-e9d4-4f9d-ba0d-ef4f8eeda026")
 	)
 	(label "I2S_CTRL"
 		(at 309.88 207.01 0)
@@ -16342,16 +16292,6 @@
 		)
 		(uuid "89b515a7-ab13-4c63-b263-34c931c2d0b4")
 	)
-	(label "RP2_X"
-		(at 57.15 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c0f55d7-b846-41c4-b9d4-5f0707bc1bf3")
-	)
 	(label "ADC_VOLUME"
 		(at 332.74 240.03 0)
 		(effects
@@ -16371,6 +16311,16 @@
 			(justify left bottom)
 		)
 		(uuid "90ba4d6b-476d-4786-8ff0-144c07cf0e01")
+	)
+	(label "RP2_X"
+		(at 76.2 27.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92bcea08-46f8-4d5f-82bb-daaf96096013")
 	)
 	(label "TFT_RESET"
 		(at 104.14 152.4 0)
@@ -16471,6 +16421,16 @@
 			(justify left bottom)
 		)
 		(uuid "a0b61098-2834-4d84-afbb-33449c094319")
+	)
+	(label "LCD_BACK_ALT"
+		(at 67.31 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a76c9352-262e-470b-8e27-78a73a13e12b")
 	)
 	(label "SD_CMD"
 		(at 34.29 252.73 0)
@@ -16592,6 +16552,16 @@
 		)
 		(uuid "c4bb1b47-2e56-4659-8516-1fe42660582a")
 	)
+	(label "RP1_X"
+		(at 83.82 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c566a848-3601-4ad1-9238-db89269d4cc7")
+	)
 	(label "BAT+"
 		(at 252.73 95.25 0)
 		(effects
@@ -16613,7 +16583,7 @@
 		(uuid "cf66c2d0-dcf1-4541-888a-37ca09accf68")
 	)
 	(label "+3V3"
-		(at 228.6 153.67 90)
+		(at 231.14 163.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16621,16 +16591,6 @@
 			(justify left bottom)
 		)
 		(uuid "d08c27af-37fb-497c-9119-f6e9f49b4f94")
-	)
-	(label "RP1_X"
-		(at 165.1 187.96 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d13fc3ef-f8a6-4275-9519-dffa18e18d34")
 	)
 	(label "TFT_SPI_MOSI"
 		(at 26.67 81.28 0)
@@ -16651,16 +16611,6 @@
 			(justify left bottom)
 		)
 		(uuid "d42352dd-4978-4f3d-ba92-eb6174b77efa")
-	)
-	(label "KEY_R"
-		(at 76.2 27.94 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "d653eb51-4c64-4036-b462-ce61b457190b")
 	)
 	(label "KEY_RIGHT2"
 		(at 104.14 115.57 270)
@@ -16741,6 +16691,16 @@
 			(justify left bottom)
 		)
 		(uuid "e7e2c686-3d32-4bc7-a049-66925300510d")
+	)
+	(label "RP1_Y"
+		(at 194.31 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8156b87-08ae-4dba-9a86-a3c4a80b1427")
 	)
 	(label "SD_DAT2"
 		(at 34.29 247.65 0)
@@ -17468,6 +17428,73 @@
 			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
 				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
 					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07aa872b-407e-45ad-8465-9e634dcd1943")
+		(property "Reference" "TP21"
+			(at 125.73 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 122.6821 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46b41a70-bc2e-4cf1-9d2d-5d926d230237")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -18300,6 +18327,73 @@
 			(project ""
 				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
 					(reference "VR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eb6f43e-3106-4e4c-aec5-5b7896052b69")
+		(property "Reference" "TP22"
+			(at 92.202 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.9 117.6021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 86.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d879fbf3-8ab1-4189-bd2a-34d930b50823")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -19160,73 +19254,6 @@
 			(project ""
 				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 60.96 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27f567d4-e9d4-49f1-ae37-db0f973c784a")
-		(property "Reference" "TP4"
-			(at 60.198 13.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 17.0179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 66.04 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 60.96 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9289ddb2-265b-4682-b0bf-767798efe97f")
-		)
-		(instances
-			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
-				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -21145,73 +21172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "554494b3-4777-425b-986f-8004a0bc4408")
-		(property "Reference" "TP18"
-			(at 154.94 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 151.8921 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "753b8728-5033-4424-8907-edcdfa33fbfe")
-		)
-		(instances
-			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
-				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:电阻")
 		(at 254 201.93 90)
 		(unit 1)
@@ -21351,6 +21311,75 @@
 	)
 	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:电阻")
+		(at 83.82 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59541569-de8c-411e-96af-eb1dda8a69d7")
+		(property "Reference" "R26"
+			(at 83.058 177.292 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 85.09 179.578 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1a7b298-0108-4e00-aca8-8a07fb12921e")
+		)
+		(pin "1"
+			(uuid "b16e5a67-5751-43cc-9d23-940725848899")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32P4Gap-easyedapro:电阻")
 		(at 264.16 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21479,6 +21508,73 @@
 			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
 				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
 					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cc6a781-9921-4ec7-91ec-c3c5997210f2")
+		(property "Reference" "TP4"
+			(at 60.198 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 63.5 30.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 66.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0012078-d4fa-4f5f-a8eb-081c28fe10de")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -22295,6 +22391,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b96ea14-73b3-4883-9ac7-bc4da7ecbed0")
+		(property "Reference" "TP23"
+			(at 89.662 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 86.36 117.6021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "103f8170-98f9-4529-ad8a-69db6da8e943")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
 		(at 43.18 226.06 0)
 		(unit 1)
@@ -22422,6 +22585,73 @@
 			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
 				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70917274-50c1-427a-a171-6e29e5c775a9")
+		(property "Reference" "TP18"
+			(at 125.73 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 122.6821 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5199bfa-a86f-460c-9b16-0f117fd4a43b")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -23262,7 +23492,7 @@
 	)
 	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
-		(at 182.88 171.45 0)
+		(at 193.04 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23270,7 +23500,7 @@
 		(dnp no)
 		(uuid "8a93972b-e274-48cf-8997-f832b39090ab")
 		(property "Reference" "#PWR010"
-			(at 182.88 171.45 0)
+			(at 193.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23279,7 +23509,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 171.45 0)
+			(at 193.04 180.34 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -23288,7 +23518,7 @@
 			)
 		)
 		(property "Footprint" "ESP32P4Gap-easyedapro:"
-			(at 182.88 171.45 0)
+			(at 193.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23297,7 +23527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 171.45 0)
+			(at 193.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23306,7 +23536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 171.45 0)
+			(at 193.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23629,6 +23859,73 @@
 			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
 				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bc49f5a-692f-4bc4-bbf9-30bff02bcedc")
+		(property "Reference" "TP5"
+			(at 62.738 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 30.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 68.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "220668a7-f109-43dd-a1fd-a54f12aed78e")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -24916,7 +25213,7 @@
 	)
 	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
-		(at 170.18 182.88 0)
+		(at 180.34 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24924,7 +25221,7 @@
 		(dnp no)
 		(uuid "a0898d17-8d08-434f-92a5-1e73a51f7ab5")
 		(property "Reference" "#PWR09"
-			(at 170.18 182.88 0)
+			(at 180.34 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24933,7 +25230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 182.88 0)
+			(at 180.34 189.23 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -24942,7 +25239,7 @@
 			)
 		)
 		(property "Footprint" "ESP32P4Gap-easyedapro:"
-			(at 170.18 182.88 0)
+			(at 180.34 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24951,7 +25248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 182.88 0)
+			(at 180.34 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24960,7 +25257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 182.88 0)
+			(at 180.34 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25985,7 +26282,7 @@
 	)
 	(symbol
 		(lib_id "DoMiNi:Adafruit_2765_Mini_2-Axis_Analog_Thumbstick")
-		(at 209.55 163.83 0)
+		(at 213.36 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25994,7 +26291,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba1ab240-1253-44f3-aeaa-28020e9ac85f")
 		(property "Reference" "RP2"
-			(at 211.455 152.1925 0)
+			(at 215.265 161.0825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26002,7 +26299,7 @@
 			)
 		)
 		(property "Value" "Adafruit_2765"
-			(at 211.455 154.6168 0)
+			(at 215.265 163.5068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26010,7 +26307,7 @@
 			)
 		)
 		(property "Footprint" "Martendo32Library:Adafruit_2765"
-			(at 209.55 168.91 0)
+			(at 213.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26019,7 +26316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 168.91 0)
+			(at 213.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26028,7 +26325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 168.91 0)
+			(at 213.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26037,7 +26334,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 209.55 163.83 0)
+			(at 213.36 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26046,7 +26343,7 @@
 			)
 		)
 		(property "PartNumber" "2765"
-			(at 209.55 163.83 0)
+			(at 213.36 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26285,7 +26582,7 @@
 	)
 	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
-		(at 224.79 173.99 0)
+		(at 228.6 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26293,7 +26590,7 @@
 		(dnp no)
 		(uuid "bf09782b-37b7-4370-97ff-7830bcc8282f")
 		(property "Reference" "#PWR012"
-			(at 224.79 173.99 0)
+			(at 228.6 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26302,7 +26599,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 173.99 0)
+			(at 228.6 182.88 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -26311,7 +26608,7 @@
 			)
 		)
 		(property "Footprint" "ESP32P4Gap-easyedapro:"
-			(at 224.79 173.99 0)
+			(at 228.6 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26320,7 +26617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 173.99 0)
+			(at 228.6 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26329,7 +26626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 173.99 0)
+			(at 228.6 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27376,7 +27673,7 @@
 	)
 	(symbol
 		(lib_id "DoMiNi:Adafruit_2765_Mini_2-Axis_Analog_Thumbstick")
-		(at 165.1 163.83 0)
+		(at 175.26 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27385,7 +27682,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce259f42-ed3c-4f70-976f-5dcb15fcc11a")
 		(property "Reference" "RP1"
-			(at 167.005 152.1925 0)
+			(at 177.165 161.0825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27393,7 +27690,7 @@
 			)
 		)
 		(property "Value" "Adafruit_2765"
-			(at 167.005 154.6168 0)
+			(at 177.165 163.5068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27401,7 +27698,7 @@
 			)
 		)
 		(property "Footprint" "Martendo32Library:Adafruit_2765"
-			(at 165.1 168.91 0)
+			(at 175.26 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27410,7 +27707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 168.91 0)
+			(at 175.26 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27419,7 +27716,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 168.91 0)
+			(at 175.26 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27428,7 +27725,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 165.1 163.83 0)
+			(at 175.26 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27437,7 +27734,7 @@
 			)
 		)
 		(property "PartNumber" "2765"
-			(at 165.1 163.83 0)
+			(at 175.26 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28046,73 +28343,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e19a4a68-2536-45dd-8b8c-53a96d0bc674")
-		(property "Reference" "TP21"
-			(at 170.18 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 167.1321 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "129d9c45-9369-4133-823a-a5d148e363ba")
-		)
-		(instances
-			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
-				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
 		(at 240.03 271.78 0)
 		(unit 1)
@@ -28705,73 +28935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 63.5 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec8b2661-feef-4552-9148-7552673ed43a")
-		(property "Reference" "TP5"
-			(at 62.738 13.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 66.04 17.0179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 63.5 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4c22b86-5a09-47a6-a8b1-7e9b040095d0")
-		)
-		(instances
-			(project "KiCad_GB300-P4-SingleSided_SMT_V2"
-				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
 		(at 153.67 234.95 0)
 		(unit 1)
@@ -28839,7 +29002,7 @@
 	)
 	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
-		(at 214.63 180.34 0)
+		(at 218.44 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28847,7 +29010,7 @@
 		(dnp no)
 		(uuid "f07afbec-d411-42c5-8126-e5b0e56844af")
 		(property "Reference" "#PWR011"
-			(at 214.63 180.34 0)
+			(at 218.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28856,7 +29019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 180.34 0)
+			(at 218.44 189.23 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -28865,7 +29028,7 @@
 			)
 		)
 		(property "Footprint" "ESP32P4Gap-easyedapro:"
-			(at 214.63 180.34 0)
+			(at 218.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28874,7 +29037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 180.34 0)
+			(at 218.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28883,7 +29046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 180.34 0)
+			(at 218.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
