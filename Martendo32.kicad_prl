@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 1,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -50,12 +50,12 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000003",
+    "visible_layers": "00000000_00000000_00000000_02000021",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_type": "",
-    "repo_username": "",
+    "repo_type": "https",
+    "repo_username": "stephanbeha@gmx.de",
     "ssh_key": ""
   },
   "meta": {
