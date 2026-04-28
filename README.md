@@ -1,4 +1,4 @@
-<img width="573" height="770" alt="2026-04-28 11_06_20-_ Martendo32_Housingb_IPS - FreeCAD 1 1 1_B" src="https://github.com/user-attachments/assets/493dc1ee-43bc-4fd0-9359-e469fb8bd7ee" />
+<img width="686" height="790" alt="2026-04-28 11_06_20-_ Martendo32_Housingb_IPS - FreeCAD 1 1 1_C" src="https://github.com/user-attachments/assets/05832290-6849-43ae-b30b-6e4d400ad0d0" />
 
 
 assets/65467d34-9345-4316-92dd-8e191f508759" />
