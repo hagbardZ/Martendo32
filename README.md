@@ -4,6 +4,8 @@
 assets/65467d34-9345-4316-92dd-8e191f508759" />
 Kicad files for Martendo32.
 An ESP32-P4 based Retro Game console
-<img width="1718" height="1050" alt="Martendo32Top" src="https://github.com/user-attachments/assets/09b0ee1c-51b4-4e23-a6d7-ef397f0b47d0" />
 
-<img width="1718" height="1050" alt="Martendo32BOT" src="https://github.com/user-attachments/assets/54613d18-efb5-48bd-8d4d-195b8c4099ad" />
+<img width="1712" height="1040" alt="Martendo32Top" src="https://github.com/user-attachments/assets/d01d5567-07c9-44dd-b7b0-bcfee189763f" />
+
+
+<img width="1712" height="1040" alt="Martendo32BOT" src="https://github.com/user-attachments/assets/82f0eb52-9099-4d54-a606-ee53dc573b75" />
