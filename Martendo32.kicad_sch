@@ -10207,6 +10207,12 @@
 		(uuid "7fa186a8-cca4-49e8-8df8-eb22f910c644")
 	)
 	(junction
+		(at 157.48 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "811134b7-c7d4-4eb4-b034-666b556fa1b1")
+	)
+	(junction
 		(at 191.77 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12976,6 +12982,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 41.91) (xy 267.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6955ffde-7300-4d25-8135-0ecd04bb559e")
+	)
+	(wire
+		(pts
 			(xy 326.39 234.95) (xy 326.39 237.49)
 		)
 		(stroke
@@ -15136,7 +15152,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 41.91) (xy 267.97 41.91)
+			(xy 125.73 41.91) (xy 157.48 41.91)
 		)
 		(stroke
 			(width 0)
@@ -15563,6 +15579,16 @@
 			(type default)
 		)
 		(uuid "f6e877ed-11a0-4fdb-bdc6-3de51c640277")
+	)
+	(wire
+		(pts
+			(xy 157.48 52.07) (xy 157.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f709a1f6-f154-47bb-9e54-6b6c4925f903")
 	)
 	(wire
 		(pts
@@ -18200,7 +18226,7 @@
 		(uuid "ae8956d4-4c12-4fb6-bced-6aa63916b1f1")
 	)
 	(label "HPJ+"
-		(at 373.38 189.23 0)
+		(at 370.84 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20935,6 +20961,87 @@
 		)
 	)
 	(symbol
+		(lib_id "ESP32P4Gap-easyedapro:Capacitance")
+		(at 157.48 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1763b7ae-41e1-4413-8a03-031d2e5a5331")
+		(property "Reference" "C12"
+			(at 162.56 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10uF"
+			(at 162.56 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "MOSER:0805"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72780e62-38f2-4297-8dec-25847c4895c0")
+		)
+		(pin "2"
+			(uuid "397cba3b-4287-4347-86a6-7704ac12cf12")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 58.42 110.49 180)
 		(unit 1)
@@ -23313,6 +23420,84 @@
 		)
 	)
 	(symbol
+		(lib_id "ESP32P4Gap-easyedapro:Ground-GND")
+		(at 157.48 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51ee8302-c881-4afa-9300-bca841d04372")
+		(property "Reference" "#PWR0158"
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" "ESP32P4Gap-easyedapro:"
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94c8922d-7786-4c76-8f8f-9d2b9e931464")
+		)
+		(instances
+			(project "Martendo32"
+				(path "/4d50824d-5e8b-40d1-81c7-e2bd3d54a2c4"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESP32P4Gap-easyedapro:TS-1187A-B-A-B")
 		(at 196.85 267.97 0)
 		(unit 1)
@@ -24006,7 +24191,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "KiCad_GB300-P4-SingleSided_SMT_V2:0603"
+		(property "Footprint" "MOSER:0603"
 			(at 264.16 119.38 0)
 			(hide yes)
 			(show_name no)
