@@ -26871,8 +26871,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at 78.74 73.66 0)
+		(property "Value" "WT0132P4A1N16R32"
+			(at 77.978 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26903,7 +26903,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WT0132P4A1N16R32"
 			(at 78.74 73.66 0)
 			(hide yes)
 			(show_name no)
